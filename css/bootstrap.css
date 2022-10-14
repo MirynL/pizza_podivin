@@ -6799,6 +6799,16 @@ textarea.form-control-lg {
 }
 .link-danger:hover, .link-danger:focus {
   color: #b02a37 !important;
+
+}
+.link-brown {
+  color: #212529 !important;
+}
+.link-brown.active {
+  color: #A16422 !important;
+}
+.link-brown:hover, .link-danger:focus {
+  color: #A16422 !important;
 }
 
 .link-light {

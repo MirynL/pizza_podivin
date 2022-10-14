@@ -13,31 +13,39 @@
         <link rel="stylesheet" href="css/bootstrap-grid.css">
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css' integrity='sha512-HHsOC+h3najWR7OKiGZtfhFIEzg5VRIPde0kB0bG2QRidTQqf+sbfcxCTB16AcFB93xMjnBIKE29/MjdzXE+qw==' crossorigin='anonymous'/>
+        <link rel="stylesheet" href="css/food-menu.css">
+        <link rel="stylesheet" href="css/homepage.css">
     </head>
     <body>
         <header>
-            <nav class="navbar navbar-expand-lg bg-light">
+            <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
                   <a class="navbar-brand" href="#"><i class="fa-solid fa-pizza-slice"></i> Pizzerie Tonny</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" style = "border: 0ch;">
                         <i class="fas fa-bars" style="font-size:28px;"></i> 
                     </button>
-                  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                  <div class="collapse navbar-collapse flex-grow-0" id="navbarTogglerDemo02">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Domů</a>
+                            <a class="nav-link link-brown active" aria-current="page" href="#">Domů</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Nápojový lístek</a>
+                            <a class="nav-link link-brown" aria-current="page" href="#">Nápojový lístek</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Jídelní lístek</a>
+                            <a class="nav-link link-brown" aria-current="page" href="#">Jídelní lístek</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">O nás</a>
+                            <a class="nav-link link-brown" aria-current="page" href="#">Pizza</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Kontakt</a>
+                            <a class="nav-link link-brown" aria-current="page" href="#">Galerie</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-brown" aria-current="page" href="#">O nás</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-brown" aria-current="page" href="#">Kontakt</a>
                         </li>
 
                     </ul>
@@ -50,19 +58,51 @@
 
         </header>
         <main role="main">
-
+            <section class="container mx-auto mt-4 ">
+                <div class="row text-center">
+                    <h2>Pizza</h2>
+                </div>
+                <div class="row g-5 mt-2">
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                      <div class="p-0 bg-light">
+                        <img width="100%" src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F19%2F2014%2F07%2F10%2Fpepperoni-pizza-ck-x.jpg&q=60" alt="">
+                        <div class="item-desc border py-3">
+                            pizza with pepperoni
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="p-0 bg-light">
+                          <img width="100%" src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F19%2F2014%2F07%2F10%2Fpepperoni-pizza-ck-x.jpg&q=60" alt="">
+                          <div class="item-desc border py-3">
+                              pizza with pepperoni
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="p-0 bg-light">
+                          <img width="100%" src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F19%2F2014%2F07%2F10%2Fpepperoni-pizza-ck-x.jpg&q=60" alt="">
+                          <div class="item-desc border py-3">
+                              pizza with pepperoni
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="p-0 bg-light">
+                          <img width="100%" src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F19%2F2014%2F07%2F10%2Fpepperoni-pizza-ck-x.jpg&q=60" alt="">
+                          <div class="item-desc border py-3">
+                              pizza with pepperoni
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+            </section>
         </main>
 
         <footer>
 
         </footer>
-        <style>
-            button.navbar-toggler.ml-auto.hidden-sm-up.float-xs-right:focus {
-              outline: none !important;
-             
-              box-shadow: 0;
-            }
-        </style>
+
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->

@@ -1,0 +1,10 @@
+.container{
+    text-align: center;
+}
+
+body{
+    background-color: #fff8f5;
+}
+.pizza{
+    min-height: 50vh;
+}
